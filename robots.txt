@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /assets/config.js
-Sitemap: https://nteo.onrender.com/sitemap.xml
+Sitemap: https://nteo-cyprus.com/sitemap.xml

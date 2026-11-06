@@ -1,3 +1,1 @@
-// NTEO business contact channel
-// WhatsApp number in international format, digits only.
-window.NTEO_CONFIG={whatsapp:'35797587074',email:'',phone:'+35797587074'};
+window.NTEO_CONFIG={whatsapp:'35797587074',instagram:'https://instagram.com/nteo_cyprus',tiktok:'https://tiktok.com/@nteo_cyprus'};
