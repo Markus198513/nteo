@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://nteo.cy/en/</loc></url>
+<url><loc>https://nteo.cy/en//</loc></url>
 <url><loc>https://nteo.cy/en/about/</loc></url>
 <url><loc>https://nteo.cy/en/contact/</loc></url>
 <url><loc>https://nteo.cy/en/request-a-quote/</loc></url>
@@ -105,7 +106,15 @@
 <url><loc>https://nteo.cy/en/resources/large-format-file-preparation/</loc></url>
 <url><loc>https://nteo.cy/en/resources/signage-maintenance/</loc></url>
 <url><loc>https://nteo.cy/en/resources/signage-project-checklist/</loc></url>
+<url><loc>https://nteo.cy/en/products/indoor-signs/</loc></url>
+<url><loc>https://nteo.cy/en/products/outdoor-signs/</loc></url>
+<url><loc>https://nteo.cy/en/products/construction-signs/</loc></url>
+<url><loc>https://nteo.cy/en/products/large-format-printing/</loc></url>
+<url><loc>https://nteo.cy/en/products/vinyl-window-graphics/</loc></url>
+<url><loc>https://nteo.cy/en/products/vehicle-graphics/</loc></url>
+<url><loc>https://nteo.cy/en/products/rigid-signs/</loc></url>
 <url><loc>https://nteo.cy/ru/</loc></url>
+<url><loc>https://nteo.cy/ru//</loc></url>
 <url><loc>https://nteo.cy/ru/about/</loc></url>
 <url><loc>https://nteo.cy/ru/contact/</loc></url>
 <url><loc>https://nteo.cy/ru/request-a-quote/</loc></url>
@@ -210,4 +219,11 @@
 <url><loc>https://nteo.cy/ru/resources/large-format-file-preparation/</loc></url>
 <url><loc>https://nteo.cy/ru/resources/signage-maintenance/</loc></url>
 <url><loc>https://nteo.cy/ru/resources/signage-project-checklist/</loc></url>
+<url><loc>https://nteo.cy/ru/products/indoor-signs/</loc></url>
+<url><loc>https://nteo.cy/ru/products/outdoor-signs/</loc></url>
+<url><loc>https://nteo.cy/ru/products/construction-signs/</loc></url>
+<url><loc>https://nteo.cy/ru/products/large-format-printing/</loc></url>
+<url><loc>https://nteo.cy/ru/products/vinyl-window-graphics/</loc></url>
+<url><loc>https://nteo.cy/ru/products/vehicle-graphics/</loc></url>
+<url><loc>https://nteo.cy/ru/products/rigid-signs/</loc></url>
 </urlset>
