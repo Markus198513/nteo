@@ -105,3 +105,13 @@ NTEO V4.0 — НОВАЯ AI-ФОТОКОЛЛЕКЦИЯ ДЛЯ БРЕНДИРОВ
 - Галерея примеров использует отдельные изображения, а не повтор прежних фото из других услуг.
 - Изображения демонстрационные/концептуальные, не выдаются за реальные выполненные заказы NTEO.
 - Добавленные изображения оптимизированы в WebP.
+
+
+NTEO V4.1 — VEHICLE BRANDING PAGE REBUILD:
+- Rebuilt the vehicle-branding service content in Russian and English.
+- Fixed broken HTML nesting that had placed the technical notes and project process inside the vehicle coverage grid, creating narrow columns and a large empty area.
+- Added distinct image assets for full-colour print, plotter-cut vinyl, combined installation, partial branding, side-panel branding, full branding, film classes, and concept gallery examples.
+- Added explanatory content for the three application methods, three coverage formats, calendered/polymeric/cast films, protective overlamination, vehicle preparation, body geometry, maintenance, and the six-step workflow.
+- Added clear concept-visual labels so generated examples are not presented as completed NTEO client projects.
+- Updated RU and EN pages and checked local image references and ZIP integrity.
+- All service-life ranges are described as indicative, not guaranteed.
