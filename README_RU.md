@@ -1,27 +1,20 @@
-# NTEO Corporate Website V1
+# NTEO Corporate Website — Build Stage 2
 
-Static bilingual corporate website and product catalogue inspired by the information architecture of SignsNY, rebuilt with NTEO branding and original page copy. This is not an online store.
+Статический двуязычный сайт-каталог для NTEO Cyprus.
 
-## Includes
-- English and Russian versions (`/en/`, `/ru/`)
-- Homepage, catalogue, category pages and individual product pages
-- Industry solution pages
-- Portfolio / concept gallery
-- About, contact, resources and guide pages
-- Local landing pages for Limassol, Paphos, Nicosia and Larnaca
-- Responsive navigation and layouts
-- Direct WhatsApp contact; no customer accounts, cart, payments, database or custom backend
-- SEO basics: page titles, descriptions, sitemap and robots.txt
+- 105 страниц в карте × 2 языка (английский и русский).
+- Отдельные HTML-страницы, адаптивная CSS-система, навигация и CTA.
+- Нет backend, базы данных, корзины, регистрации и оплаты.
+- WhatsApp CTA ведёт на номер NTEO, указанный в исходном проекте.
+- Netlify-ready: публиковать содержимое корня архива (publish = .).
 
-## Deploy
-Upload the project folder to a static hosting provider (Netlify, Render Static Site, GitHub Pages with correct base paths, etc.). No build command is required. Publish directory is the project root.
+## Важно перед публикацией
+Это первая собранная контентная/дизайнерская версия, не финальный утверждённый сайт.
+1. Нужно заменить временные повторяющиеся фотографии на уникальные лицензированные или сгенерированные изображения для каждой страницы.
+2. Проверить все услуги, которые NTEO действительно оказывает, и уточнить географию.
+3. Подтвердить домен, email, контакты и реальные проекты для портфолио.
+4. Canonical и sitemap сейчас используют nteo.cy как адрес-заглушку; заменить на фактический домен.
+5. Тексты — оригинальные рабочие тексты, подлежащие редактуре носителем английского языка перед публикацией.
 
-## Before launch
-1. Confirm the final domain and replace `https://nteo-cyprus.com` in sitemap.xml and robots.txt if needed.
-2. Confirm the contact number `35797587074` and social links in the footer/config.
-3. Review all product descriptions and verify which services/materials NTEO actually offers.
-4. Replace concept visuals in the portfolio with verified completed project photographs as they become available.
-5. Test all navigation and contact links on the published domain.
-
-## Important
-The images retained from V4.7 include concept visuals. The portfolio explicitly labels them as visual directions, not verified client case studies. Some product categories are proposed catalogue structure and should be reviewed against actual production capabilities before launch.
+## Локальный просмотр
+Откройте `index.html` или запустите любой локальный static server из корня.
