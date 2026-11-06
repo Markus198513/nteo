@@ -115,3 +115,14 @@ NTEO V4.1 — VEHICLE BRANDING PAGE REBUILD:
 - Added clear concept-visual labels so generated examples are not presented as completed NTEO client projects.
 - Updated RU and EN pages and checked local image references and ZIP integrity.
 - All service-life ranges are described as indicative, not guaranteed.
+
+
+NTEO V4.2 — VEHICLE PAGE FIXES:
+- Removed the duplicate contact bar from the vehicle branding service page.
+- All service-page contact CTAs and the navigation Contact link now lead to the main RU/EN contact section.
+- Added phone, WhatsApp, Telegram, Instagram, TikTok and Facebook contact links to the main contact section in both languages.
+- Replaced broken composite/infographic crops in the vehicle coverage cards with dedicated vehicle photographs.
+- Corrected desktop and mobile grids for coverage cards, process steps and visual references.
+- Removed inherited list-marker duplication from the six project process steps.
+- Expanded the FAQ area to use the full content width rather than leaving an empty right column.
+- Checked all HTML files parse and all local /assets references resolve.
