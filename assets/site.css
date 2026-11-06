@@ -209,3 +209,8 @@ body{background:var(--paper);font-family:Manrope,Inter,Arial,sans-serif;letter-s
 .service-deep .service-lead{max-width:980px}
 .service-deep .solution-card img{background:#e8e8e8}
 @media(max-width:560px){.vehicle-coverage .solution-copy{min-height:0}}
+
+/* NTEO service illustrations — clean technical line art */
+.service-card img.service-vector{height:245px;object-fit:contain;background:#f7f7f6;padding:10px;transition:none}
+.service-card:hover img.service-vector{transform:none}
+@media(max-width:700px){.service-card img.service-vector{height:220px}}

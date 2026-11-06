@@ -1,4 +1,3 @@
-// Add the real company contact details before publishing.
-// WhatsApp: international format with country code, digits only (no + or spaces).
-// Email: monitored business inbox.
-window.NTEO_CONFIG={whatsapp:'',email:'',phone:''};
+// NTEO business contact channel
+// WhatsApp number in international format, digits only.
+window.NTEO_CONFIG={whatsapp:'35797587074',email:'',phone:'+35797587074'};
