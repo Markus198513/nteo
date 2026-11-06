@@ -201,3 +201,11 @@ body{background:var(--paper);font-family:Manrope,Inter,Arial,sans-serif;letter-s
 .film-install-grid h2{font-size:clamp(30px,3.8vw,48px);line-height:1.04;letter-spacing:-.04em;margin:14px 0}
 .film-install-grid p{font-size:15px;line-height:1.85;color:#51595c}
 @media(max-width:800px){.film-install-grid{grid-template-columns:1fr;gap:25px}.film-install-grid img{height:300px}}
+
+/* Vehicle branding page refinements */
+.vehicle-coverage .solution-card img{aspect-ratio:16/10;object-position:center}
+.vehicle-coverage .solution-copy{min-height:190px}
+.service-deep .subhead{margin-top:48px}
+.service-deep .service-lead{max-width:980px}
+.service-deep .solution-card img{background:#e8e8e8}
+@media(max-width:560px){.vehicle-coverage .solution-copy{min-height:0}}
