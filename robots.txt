@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /assets/config.js
-Sitemap: https://nteo-visual.onrender.com/sitemap.xml
+Sitemap: https://nteo.onrender.com/sitemap.xml
