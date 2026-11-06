@@ -115,3 +115,89 @@ body{background:var(--paper);font-family:Manrope,Inter,Arial,sans-serif;letter-s
 .related-service-links a:hover{border-color:#ed1c2a;background:#1d2224}
 @media(max-width:800px){.related-service-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:500px){.related-service-links{grid-template-columns:1fr}}
+
+/* NTEO V3.4 — dedicated printed-film service page */
+.film-hero{position:relative;isolation:isolate;min-height:570px;background:#0b0e10;color:#fff;display:flex;align-items:center;overflow:hidden}
+.film-hero-bg{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(7,10,12,.98) 0%,rgba(7,10,12,.88) 38%,rgba(7,10,12,.2) 78%),url('/assets/large-format-detail.webp') center/cover no-repeat}
+.film-hero-content{padding:76px 0 72px}
+.film-hero .crumb{font-size:12px;color:#aeb4b6;margin-bottom:42px}
+.film-hero .crumb a{color:#fff;text-decoration:none}
+.film-hero .eyebrow{color:#ff2635;letter-spacing:.2em;font-size:11px;font-weight:800;margin-bottom:18px}
+.film-hero h1{font-size:clamp(42px,6vw,76px);line-height:.98;letter-spacing:-.055em;max-width:760px;margin:0 0 22px}
+.film-hero-lead{font-size:18px;line-height:1.7;color:#d4d8d9;max-width:620px;margin:0 0 28px}
+.film-proof{display:flex;gap:28px;flex-wrap:wrap;margin:0 0 30px;color:#f3f3f1;font-size:12px;font-weight:700;letter-spacing:.04em}
+.film-proof span{border-left:2px solid #e7192b;padding-left:12px}
+.film-hero .cta{display:inline-flex}
+.film-intro{padding:76px 0;background:#f5f5f2}
+.film-intro-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:start}
+.film-intro .eyebrow,.film-section-head .eyebrow,.film-groups .eyebrow,.film-adhesive .eyebrow,.film-lamination .eyebrow,.film-applications .eyebrow,.film-process .eyebrow,.film-faq .eyebrow{color:#e21a2b;font-size:11px;font-weight:800;letter-spacing:.18em}
+.film-intro h2,.film-section-head h2,.film-groups h2,.film-lamination h2,.film-applications h2,.film-process h2,.film-faq h2{font-size:clamp(32px,4vw,52px);line-height:1.03;letter-spacing:-.045em;margin:14px 0 0}
+.film-intro-grid>p{font-size:17px;line-height:1.9;color:#4c5356;margin:0}
+.film-catalog{padding:86px 0;background:#fff}
+.film-section-head{display:flex;justify-content:space-between;gap:35px;align-items:end;margin-bottom:32px}
+.film-section-head>p{max-width:440px;color:#62696c;line-height:1.8;margin:0}
+.film-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.film-card{background:#f4f4f1;min-width:0;overflow:hidden}
+.film-card-image{position:relative;overflow:hidden;background:#dfe1df}
+.film-card-image img{display:block;width:100%;aspect-ratio:1.45;object-fit:cover;transition:transform .45s}
+.film-card:hover .film-card-image img{transform:scale(1.035)}
+.film-card-image>span{position:absolute;left:14px;top:14px;background:#e7192b;color:#fff;font-size:11px;font-weight:800;padding:7px 9px}
+.film-card-copy{padding:20px 20px 24px}
+.film-card h3{font-size:20px;line-height:1.2;margin:0 0 10px}
+.film-card p{font-size:14px;line-height:1.75;color:#555e61;margin:0}
+.film-groups{padding:82px 0;background:#111517;color:#fff}
+.film-groups h2{max-width:760px;margin-bottom:32px}
+.film-group-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid #414749}
+.film-group-grid article{padding:28px 28px 12px 0;margin-right:28px;border-right:1px solid #414749}
+.film-group-grid article:last-child{border-right:0;margin-right:0}
+.film-number{color:#ff3040;font-size:12px;font-weight:800;letter-spacing:.15em}
+.film-group-grid h3{font-size:21px;margin:16px 0 10px}
+.film-group-grid p{font-size:14px;line-height:1.8;color:#c3c8c9;margin:0}
+.film-adhesive{padding:82px 0;background:#ecece8}
+.film-adhesive .film-group-grid{border-color:#c9ccca}
+.film-adhesive .film-group-grid article{border-color:#c9ccca}
+.film-adhesive .film-group-grid p{color:#51595c}
+.film-lamination{padding:82px 0;background:#fff}
+.film-lam-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.film-lam-grid p{color:#51595c;font-size:15px;line-height:1.85}
+.film-lam-grid ul,.film-app-grid ul{padding-left:20px;color:#42494c;line-height:2}
+.film-lam-photo img{width:100%;height:390px;object-fit:cover;display:block}
+.film-applications{padding:82px 0;background:#f1f1ed}
+.film-app-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:center}
+.film-app-grid img{width:100%;height:420px;object-fit:cover}
+.film-app-grid ul{font-size:16px}
+.film-process{padding:82px 0;background:#111517;color:#fff}
+.film-process h2{max-width:780px;margin-bottom:34px}
+.film-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.film-steps article{padding:24px 20px;background:#1b2022;border-top:2px solid #e7192b;min-height:205px}
+.film-steps article>span{font-size:13px;color:#ff3443;font-weight:800;letter-spacing:.16em}
+.film-steps h3{font-size:19px;line-height:1.25;margin:22px 0 10px}
+.film-steps p{font-size:13px;line-height:1.75;color:#c4c9ca;margin:0}
+.film-faq{padding:76px 0;background:#fff}
+.film-faq h2{margin-bottom:28px}
+.film-faq details{border-top:1px solid #d9dcda;padding:20px 0}
+.film-faq summary{font-size:17px;font-weight:750;cursor:pointer;list-style:none;position:relative;padding-right:30px}
+.film-faq summary:after{content:"+";position:absolute;right:4px;color:#e7192b;font-size:23px;top:-5px}
+.film-faq details[open] summary:after{content:"−"}
+.film-faq details p{max-width:900px;color:#5a6265;line-height:1.8;font-size:14px;margin:14px 0 0}
+.film-disclaimer{padding:26px 0;background:#e8e9e5}
+.film-disclaimer p{font-size:12px;line-height:1.8;color:#5d6568;margin:0}
+@media(max-width:900px){.film-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.film-intro-grid,.film-lam-grid,.film-app-grid{grid-template-columns:1fr;gap:28px}.film-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.film-section-head{display:block}.film-section-head>p{margin-top:18px}}
+@media(max-width:560px){.film-hero{min-height:560px}.film-hero-content{padding:56px 0}.film-hero h1{font-size:43px}.film-hero-lead{font-size:16px}.film-proof{gap:12px;display:grid}.film-intro,.film-catalog,.film-groups,.film-adhesive,.film-lamination,.film-applications,.film-process,.film-faq{padding:56px 0}.film-grid,.film-group-grid,.film-steps{grid-template-columns:1fr}.film-group-grid article{border-right:0;border-bottom:1px solid #414749;margin:0;padding:24px 0}.film-lam-photo img,.film-app-grid img{height:270px}.film-card-copy{padding:17px}.film-intro h2,.film-section-head h2,.film-groups h2,.film-lamination h2,.film-applications h2,.film-process h2,.film-faq h2{font-size:34px}}
+
+.film-explainer{background:#f0f0ec;border-left:3px solid #e7192b;padding:18px 22px;margin:0 0 22px;color:#50585b;font-size:14px;line-height:1.8}
+.film-explainer strong{color:#171b1d}
+.film-banner-note{padding:58px 0;background:#e9eae6}
+.film-banner-note .eyebrow{color:#e21a2b;font-size:11px;font-weight:800;letter-spacing:.18em}
+.film-banner-note h2{font-size:clamp(28px,3.4vw,42px);line-height:1.05;letter-spacing:-.04em;max-width:760px;margin:12px 0}
+.film-banner-note p{max-width:900px;color:#4f575a;line-height:1.85;font-size:15px}
+.film-visual-note{font-size:12px;line-height:1.7;color:#777f82;margin:20px 0 0}
+
+/* NTEO V3.5 — dedicated film photography and installation showcase */
+.film-installation{padding:78px 0;background:#f2f2ee}
+.film-install-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.film-install-grid img{display:block;width:100%;height:390px;object-fit:cover}
+.film-install-grid .eyebrow{color:#e21a2b;font-size:11px;font-weight:800;letter-spacing:.18em}
+.film-install-grid h2{font-size:clamp(30px,3.8vw,48px);line-height:1.04;letter-spacing:-.04em;margin:14px 0}
+.film-install-grid p{font-size:15px;line-height:1.85;color:#51595c}
+@media(max-width:800px){.film-install-grid{grid-template-columns:1fr;gap:25px}.film-install-grid img{height:300px}}
