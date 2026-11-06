@@ -1,0 +1,9 @@
+NTEO V4.3 — Vehicle branding visual update
+
+Replaced only the three vehicle-coverage visual assets used by both RU and EN vehicle-branding pages:
+- assets/vehicle-partial-landscape.webp — partial vehicle branding concept
+- assets/vehicle-side-branding.webp — side-panel / van branding concept
+- assets/vehicle-full-v4.webp — full vehicle wrap concept
+
+The existing HTML, section text, navigation, contacts, forms and other assets were preserved.
+These are generated conceptual visuals, not photographs of completed NTEO customer projects.
