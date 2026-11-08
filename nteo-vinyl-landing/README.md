@@ -33,5 +33,5 @@ Without SMTP configuration, the form falls back to WhatsApp. The phone number is
 The landing includes AI-generated demonstration visuals in `public/assets/images/`. They are illustrative mockups, not photographs of verified NTEO customer projects. Replace them with real project photos when available.
 
 
-## Service gallery
-The services section now contains ten locally bundled demonstration images, one for each vinyl-cutting and installation category. The seasonal-promotion image is cropped to focus on cut-vinyl lettering and solid-colour shapes. All service images are stored in `public/assets/images/` and do not depend on external image hosts. Demonstration visuals are illustrative and are not verified customer projects.
+## Service gallery update
+The services section contains ten locally bundled demonstration images in `public/assets/images/`, ordered to match the ten NTEO service categories. The visuals are AI-generated examples, not verified customer projects.
