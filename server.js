@@ -12,7 +12,7 @@ const upload = multer({
     cb(allowed ? null : new Error("Unsupported file type"), allowed);
   }
 });
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(__dirname));
 app.get("/health", (req, res) => res.json({ ok: true }));
 app.post("/api/quote", upload.single("artwork"), async (req, res) => {
   try {
