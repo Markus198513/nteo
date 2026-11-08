@@ -19,3 +19,12 @@
 .way-geo .section-head h2{color:#fff}
 @media(max-width:900px){.way-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.way-card{min-height:180px}}
 @media(max-width:600px){.way-grid{grid-template-columns:1fr;gap:9px}.wf-group-label{padding-top:18px}.way-card{min-height:0;padding:18px}.way-card-no{font-size:32px;margin-bottom:12px}.way-card-mark{padding-top:12px}.way-hero{grid-template-columns:1fr}.way-hero .wf-visual{min-height:260px;order:-1}.way-hero .wf-copy{padding:38px 24px 42px}.way-hero .wf-copy h1{font-size:43px}}
+
+/* 30-category wayfinding catalogue */
+.way-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+.way-card{min-height:205px;}
+.way-card h4{font-size:20px;}
+.way-card p{font-size:12px;line-height:1.7;}
+.way-hero .wf-visual img{object-position:center;object-fit:cover;}
+@media(max-width:900px){.way-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:600px){.way-grid{grid-template-columns:1fr;}.way-card{min-height:0;}}
