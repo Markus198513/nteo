@@ -60,3 +60,12 @@
 @media(max-width:1050px){.home-hero{min-height:560px}.home-hero-copy{padding-left:28px;padding-right:28px}.home-ribbon .wrap{flex-wrap:wrap;padding-top:14px;padding-bottom:14px;justify-content:center}.home-statement-grid,.home-geo-grid,.home-contact-grid{gap:45px}}
 @media(max-width:760px){.home-hero{grid-template-columns:1fr}.home-hero-copy{padding:64px 24px 48px}.home-hero-image{min-height:350px}.home-ribbon .wrap{gap:10px 18px;font-size:8px}.home-services,.home-process{padding:68px 0}.home-service-grid{grid-template-columns:1fr}.home-card-image{height:235px}.home-statement-grid,.home-geo-grid,.home-contact-grid{grid-template-columns:1fr;gap:28px}.home-statement,.home-contact{padding:70px 0}.home-steps{grid-template-columns:repeat(2,1fr);row-gap:24px}.home-steps article:nth-child(2){border-right:0}.home-steps article:nth-child(3){border-right:1px solid var(--line)}.home-footer-top{flex-direction:column}.home-footer-links{grid-template-columns:1fr 1fr;gap:13px}.home-footer-bottom{gap:15px;flex-wrap:wrap}}
 @media(max-width:420px){.home-hero h1{font-size:48px}.home-steps{grid-template-columns:1fr}.home-steps article{border-right:0!important;border-bottom:1px solid var(--line);padding-bottom:20px}.home-phone{font-size:29px}}
+
+/* Expanded NTEO positioning and vector service tiles */
+.home-hero{grid-template-columns:1.02fr .98fr}
+.home-hero h1{font-size:clamp(48px,5.4vw,76px);line-height:1.02}
+.home-card-image{background:#f1f1ee;display:flex;align-items:center;justify-content:center;padding:22px}
+.home-card-image img{object-fit:contain;width:100%;height:100%;max-height:245px}
+.home-service-card:hover .home-card-image img{transform:scale(1.025)}
+.home-service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:760px){.home-hero h1{font-size:clamp(42px,11vw,60px)}}
