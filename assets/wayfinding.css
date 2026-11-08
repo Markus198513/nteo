@@ -28,3 +28,13 @@
 .way-hero .wf-visual img{object-position:center;object-fit:cover;}
 @media(max-width:900px){.way-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
 @media(max-width:600px){.way-grid{grid-template-columns:1fr;}.way-card{min-height:0;}}
+
+/* Generated wayfinding category gallery */
+.way-card{padding:0 0 22px;min-height:0}
+.way-card-image{width:100%;aspect-ratio:3/2;overflow:hidden;background:#e9e8e4;margin:0 0 20px}
+.way-card-image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.way-card:hover .way-card-image img{transform:scale(1.035)}
+.way-card-no,.way-card-body,.way-card-mark{margin-left:20px;margin-right:20px}
+.way-card-no{margin-bottom:12px}
+.way-card-mark{padding-top:18px}
+@media(max-width:640px){.way-card-image{aspect-ratio:16/10}.way-card-no,.way-card-body,.way-card-mark{margin-left:16px;margin-right:16px}}
