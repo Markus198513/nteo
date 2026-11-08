@@ -1,6 +1,0 @@
-NTEO landing deployment package.
-This archive is flattened for the EXISTING nteo.onrender.com service.
-Upload/replace repository files at the repository root.
-The landing entry point is /index.html and images are in /assets/images/.
-No new Render service is defined in this archive.
-Canonical URL is set to https://nteo.onrender.com/.

@@ -1,37 +1,54 @@
-# NTEO Vinyl Stickers — Render deployment
+# NTEO Vinyl Stickers — RU / EN
 
-This is a separate Node/Express landing page for NTEO vinyl stickers, plotter-cut lettering and on-site application across Cyprus.
+Bilingual landing page for NTEO's vinyl sticker production, plotter cutting and on-site application service across Cyprus.
 
-## Local preview
-1. Install Node.js 20+
-2. Run `npm install`
-3. Run `npm start`
-4. Open http://localhost:3000
+## Included
+- Russian main page (`/`) and English page (`/en/`)
+- Responsive layout and mobile navigation
+- 9 service categories focused on cut vinyl
+- City coverage: Limassol, Paphos, Nicosia and Larnaca, plus surrounding areas
+- SEO title, description, H1/H2 structure, hreflang and LocalBusiness JSON-LD
+- Quote form with one optional artwork attachment (PDF, SVG, EPS, AI, PNG, JPG, WEBP, ZIP; max 15 MB)
+- Node/Express endpoint that emails the enquiry and attachment using SMTP
+- WhatsApp contact shortcut
 
-## Render
-Create a new Web Service or Blueprint from this repository. `render.yaml` configures the service.
-Set SMTP variables in Render Environment:
-- SMTP_HOST
-- SMTP_PORT (587 or 465)
-- SMTP_USER
-- SMTP_PASS
-- TO_EMAIL
-- FROM_EMAIL
-- REPLY_TO_EMAIL (optional)
+## Run locally
+Requires Node.js 20+.
 
-Without SMTP configuration, the form falls back to WhatsApp. The phone number is currently +357 97 587074; confirm it before launch.
+```bash
+npm install
+npm start
+```
 
-## Before public launch
-- Confirm WhatsApp number and email destination.
-- Confirm installation coverage and travel conditions.
-- Replace canonical URL in `public/index.html` with the final domain.
-- Check all photography and replace any image if you prefer your own work.
-- This site describes cut vinyl graphics, not full vehicle wrapping or full-colour photo printing.
+Open http://localhost:3000
 
+## Required Render environment variables for real email delivery
+Set these in Render > Service > Environment:
 
-## Demonstration images
-The landing includes AI-generated demonstration visuals in `public/assets/images/`. They are illustrative mockups, not photographs of verified NTEO customer projects. Replace them with real project photos when available.
+- `SMTP_HOST` — SMTP server hostname
+- `SMTP_PORT` — usually `587` (or `465` for SSL)
+- `SMTP_USER` — SMTP login
+- `SMTP_PASS` — SMTP password / app password
+- `TO_EMAIL` — mailbox that receives customer enquiries
+- `FROM_EMAIL` — verified sender address (often the SMTP account)
+- `REPLY_TO_EMAIL` — optional reply-to address
 
+The form endpoint is implemented. Until SMTP credentials are entered, the server deliberately returns a clear configuration response and the page offers WhatsApp as a fallback. Do not put SMTP credentials in frontend JavaScript.
 
-## Service gallery
-The services section now contains ten locally bundled demonstration images, one for each vinyl-cutting and installation category. The seasonal-promotion image is cropped to focus on cut-vinyl lettering and solid-colour shapes. All service images are stored in `public/assets/images/` and do not depend on external image hosts. Demonstration visuals are illustrative and are not verified customer projects.
+## Deploy to Render
+1. Push the contents of this folder to a new GitHub repository.
+2. In Render choose **New > Blueprint** and connect the repository.
+3. Render reads `render.yaml`; enter the SMTP environment values.
+4. Wait for deployment, then test `/health`, both language routes, and a real form submission with a small test attachment.
+
+## Staging vs production SEO
+The current pages include `noindex,nofollow` to prevent the temporary Render staging URL from competing in search results. Before publishing on the permanent NTEO domain:
+1. Replace the canonical URLs in both HTML files with the final public URLs.
+2. Remove the `noindex,nofollow` meta tag.
+3. Add a sitemap and robots.txt for the final URL structure.
+4. Verify the domain, SSL, analytics and search console.
+
+## Business details to verify before launch
+- Confirm the WhatsApp phone number currently set to +357 97 587074.
+- Confirm the email address for receiving enquiries.
+- Confirm actual availability of each material / service and geographic installation coverage.
