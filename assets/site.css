@@ -50,3 +50,6 @@ footer{background:#101113;color:#fff;padding:45px 0 22px}.footer-row{display:fle
 .float-whatsapp{background:#08c879}
 .float-telegram{background:#229ed9}
 @media(max-width:600px){.floating-contacts{right:14px;bottom:14px;gap:9px}.float-contact{width:49px;height:49px}.float-contact svg{width:24px;height:24px}}
+
+/* NTEO vector hero artwork */
+.hero-vector:after,.wf-visual.vector-hero:after,.hotel-hero-visual.vector-hero:after{display:none!important}.hero-vector img,.wf-visual.vector-hero img,.hotel-hero-visual.vector-hero img{object-fit:cover;object-position:center center;background:#f4f4f2}
