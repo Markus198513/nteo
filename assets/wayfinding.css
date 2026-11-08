@@ -1,0 +1,21 @@
+
+.way-hero .wf-visual img{object-position:center}
+.way-hero .wf-copy h1{font-size:clamp(43px,5.1vw,68px)}
+.way-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.wf-group-label{grid-column:1/-1;display:flex;align-items:center;gap:16px;padding:22px 0 5px;border-bottom:1px solid var(--line);margin-top:10px}
+.wf-group-label span{font:600 30px Oswald,sans-serif;color:var(--red)}
+.wf-group-label h3{font:600 23px Oswald,sans-serif;text-transform:uppercase;margin:0}
+.way-card{position:relative;background:#fff;border:1px solid #e2e2df;min-height:190px;padding:22px 20px 24px;display:flex;flex-direction:column;overflow:hidden;transition:transform .2s,border-color .2s}
+.way-card:hover{transform:translateY(-3px);border-color:var(--red)}
+.way-card-no{font:600 38px/.95 Oswald,sans-serif;color:var(--red);margin-bottom:18px}
+.way-card h4{font:600 21px/1.13 Oswald,sans-serif;text-transform:uppercase;margin:0 0 10px;max-width:95%}
+.way-card p{font-size:11px;line-height:1.75;color:var(--muted);margin:0;max-width:96%}
+.way-card-mark{font-size:8px;letter-spacing:.15em;font-weight:800;color:#a6a8a7;margin-top:auto;padding-top:18px}
+.way-cities{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}
+.way-cities span{border:1px solid #45494c;color:#fff;padding:11px 14px;font-size:10px;letter-spacing:.08em;text-transform:uppercase}
+.way-geo{background:#191c1f;color:#fff}
+.way-geo .section-head>p{color:#c3c5c6}
+.way-geo .eyebrow{color:var(--red)}
+.way-geo .section-head h2{color:#fff}
+@media(max-width:900px){.way-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.way-card{min-height:180px}}
+@media(max-width:600px){.way-grid{grid-template-columns:1fr;gap:9px}.wf-group-label{padding-top:18px}.way-card{min-height:0;padding:18px}.way-card-no{font-size:32px;margin-bottom:12px}.way-card-mark{padding-top:12px}.way-hero{grid-template-columns:1fr}.way-hero .wf-visual{min-height:260px;order:-1}.way-hero .wf-copy{padding:38px 24px 42px}.way-hero .wf-copy h1{font-size:43px}}
