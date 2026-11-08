@@ -38,3 +38,29 @@
 .wf-nav-note{font-size:10px;color:#777}
 @media(max-width:900px){.wf-hero{grid-template-columns:1fr}.wf-copy{padding:60px 24px}.wf-visual{min-height:340px}.wf-grid{grid-template-columns:repeat(2,1fr)}.wf-materials{grid-template-columns:repeat(2,1fr)}.wf-steps{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.wf-grid,.wf-materials,.wf-steps,.wf-form{grid-template-columns:1fr}.wf-copy h1{font-size:43px}.wf-visual{min-height:260px}.wf-form textarea{grid-column:auto}.wf-ticker .wrap{justify-content:center}}
+
+
+/* Shared NTEO contact system */
+.top{background:#17191b;color:#fff;font-size:10px;letter-spacing:.09em}
+.top>.wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:38px}
+.top-extra{display:flex;align-items:center;gap:16px}
+.top-phone{color:#fff;font-weight:800;white-space:nowrap;text-decoration:none}
+.top-socials{display:flex;align-items:center;gap:8px}
+.social-link{display:inline-flex;align-items:center;justify-content:center;gap:7px;color:inherit;text-decoration:none}
+.social-link svg{width:17px;height:17px;display:block;fill:currentColor}
+.top-socials .social-link{width:25px;height:25px;border:1px solid #55595d;border-radius:50%;color:#fff}
+.top-socials .social-link span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.contact-band{background:#17191b;color:#fff;border-top:1px solid #333;padding:22px 0}
+.contact-band-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.contact-band-inner>div:first-child{display:flex;align-items:center;gap:18px}
+.contact-band-inner strong{font-size:10px;letter-spacing:.13em}
+.contact-band-phone{font-family:Oswald,sans-serif;font-size:25px;font-weight:700;color:#fff;text-decoration:none}
+.contact-band-socials{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.contact-band-socials .social-link{padding:10px 13px;border:1px solid #414447;font-size:10px;font-weight:800;letter-spacing:.04em;color:#fff}
+.contact-band-socials .social-link:hover{border-color:#f22;color:#fff}
+.floating-contacts{position:fixed;right:20px;bottom:20px;z-index:1000;display:flex;flex-direction:column;gap:10px}
+.float-contact{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 5px 20px rgba(0,0,0,.22);transition:transform .18s ease,box-shadow .18s ease}
+.float-contact:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.float-contact svg{width:27px;height:27px;fill:#fff}
+.float-whatsapp{background:#08c879}.float-telegram{background:#229ed9}
+@media(max-width:700px){.top>.wrap{align-items:flex-start;flex-direction:column;padding:8px 0;gap:6px}.top-extra{flex-wrap:wrap;gap:10px}.contact-band-inner,.contact-band-inner>div:first-child{align-items:flex-start;flex-direction:column}.contact-band-inner{gap:14px}.contact-band-phone{font-size:24px}.floating-contacts{right:14px;bottom:14px;gap:9px}.float-contact{width:49px;height:49px}.float-contact svg{width:24px;height:24px}}
