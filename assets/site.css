@@ -41,3 +41,12 @@ footer{background:#101113;color:#fff;padding:45px 0 22px}.footer-row{display:fle
  .contact-band-inner{gap:14px}.contact-band-phone{font-size:24px}
  .contact-band-socials{flex-wrap:wrap}.contact-band-socials .social-link{padding:9px 10px}
 }
+
+/* Floating quick-contact buttons */
+.floating-contacts{position:fixed;right:20px;bottom:20px;z-index:1000;display:flex;flex-direction:column;gap:10px}
+.float-contact{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 5px 20px rgba(0,0,0,.22);transition:transform .18s ease,box-shadow .18s ease}
+.float-contact:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.float-contact svg{width:27px;height:27px;fill:#fff}
+.float-whatsapp{background:#08c879}
+.float-telegram{background:#229ed9}
+@media(max-width:600px){.floating-contacts{right:14px;bottom:14px;gap:9px}.float-contact{width:49px;height:49px}.float-contact svg{width:24px;height:24px}}
