@@ -27,3 +27,7 @@ Without SMTP configuration, the form falls back to WhatsApp. The phone number is
 - Replace canonical URL in `public/index.html` with the final domain.
 - Check all photography and replace any image if you prefer your own work.
 - This site describes cut vinyl graphics, not full vehicle wrapping or full-colour photo printing.
+
+
+## Demonstration images
+The landing includes AI-generated demonstration visuals in `public/assets/images/`. They are illustrative mockups, not photographs of verified NTEO customer projects. Replace them with real project photos when available.
