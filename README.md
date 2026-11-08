@@ -49,6 +49,6 @@ The current pages include `noindex,nofollow` to prevent the temporary Render sta
 4. Verify the domain, SSL, analytics and search console.
 
 ## Business details to verify before launch
-- Confirm the WhatsApp phone number currently set to +357 97 587074.
+- Confirm the WhatsApp phone number currently set to +357 97 587065.
 - Confirm the email address for receiving enquiries.
 - Confirm actual availability of each material / service and geographic installation coverage.

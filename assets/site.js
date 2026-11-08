@@ -21,7 +21,7 @@ if(form){
   }catch(err){
    const ru=document.documentElement.lang==='ru';
    if(err.message==='email_not_configured'){
-    status.innerHTML=ru?'Форма готова, но почта ещё не подключена. Пока отправьте запрос через <a href="https://wa.me/35797587074" target="_blank" rel="noopener">WhatsApp</a> и прикрепите файл в чате.':'The form is ready, but email delivery has not been configured yet. Please contact us via <a href="https://wa.me/35797587074" target="_blank" rel="noopener">WhatsApp</a> and attach your file in the chat.';
+    status.innerHTML=ru?'Форма готова, но почта ещё не подключена. Пока отправьте запрос через <a href="https://wa.me/35797587065" target="_blank" rel="noopener">WhatsApp</a> и прикрепите файл в чате.':'The form is ready, but email delivery has not been configured yet. Please contact us via <a href="https://wa.me/35797587065" target="_blank" rel="noopener">WhatsApp</a> and attach your file in the chat.';
    }else{
     status.textContent=ru?'Не удалось отправить заявку. Попробуйте WhatsApp или повторите позже.':'Could not send the enquiry. Please try WhatsApp or try again later.';
    }
