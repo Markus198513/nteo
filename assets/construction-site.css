@@ -51,3 +51,13 @@
 .construction-seo p{font-size:13px;line-height:1.9;color:#5f6468;max-width:1080px}
 @media(max-width:900px){.construction-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.construction-benefits{grid-template-columns:repeat(2,minmax(0,1fr))}.construction-intro-grid,.construction-geo-grid{grid-template-columns:1fr;gap:24px}}
 @media(max-width:600px){.construction-hero{grid-template-columns:1fr}.construction-hero .wf-copy{padding:46px 24px}.construction-hero .wf-copy h1{font-size:42px}.construction-visual{min-height:280px;order:-1}.construction-grid,.construction-benefits,.construction-audience-grid{grid-template-columns:1fr}.construction-card{min-height:0;padding:21px}.construction-intro{padding-top:48px;padding-bottom:50px}.construction-city-panel{padding:22px}.construction-cta .wf-form{grid-template-columns:1fr}.construction-cta .wf-form textarea{grid-column:auto}}
+
+/* V26 — approved photographic category visuals */
+.construction-card{overflow:hidden;padding:0 0 24px;display:flex;flex-direction:column}
+.construction-card-top{padding:20px 22px 12px}
+.construction-card-image{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#e8e9e7}
+.construction-card h3,.construction-card p,.construction-card>a{margin-left:22px;margin-right:22px}
+.construction-card h3{margin-top:20px}
+.construction-card p{flex:1}
+.construction-card>a{align-self:flex-start}
+@media(max-width:600px){.construction-card{padding-bottom:22px}.construction-card-top{padding:18px 20px 10px}.construction-card h3,.construction-card p,.construction-card>a{margin-left:20px;margin-right:20px}}
