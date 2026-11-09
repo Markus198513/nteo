@@ -1,0 +1,10 @@
+NTEO v30 — Exhibition & Event Branding
+
+Added bilingual service pages:
+- /exhibition-event-branding/
+- /en/exhibition-event-branding/
+
+Includes a custom hero visual, seven approved category images, Cyprus-focused RU/EN SEO copy, FAQ, process section, Service/ProfessionalService structured data, language alternates, canonical URLs and Open Graph metadata.
+Added service links to the home page service grid, navigation and footer; added both URLs to sitemap.xml.
+
+Deployment: upload/commit the ZIP contents to the existing site repository and trigger the Render deployment. This archive has not been deployed automatically.
