@@ -52,3 +52,18 @@ The current pages include `noindex,nofollow` to prevent the temporary Render sta
 - Confirm the WhatsApp phone number currently set to +357 97 587065.
 - Confirm the email address for receiving enquiries.
 - Confirm actual availability of each material / service and geographic installation coverage.
+
+
+## SEO staging / production switch
+
+This archive is configured for the temporary Render staging host:
+- `robots.txt` allows crawling so search engines can read page directives.
+- All HTML pages use `noindex,follow` to keep the staging host out of search results.
+- Do not submit the staging sitemap to Google Search Console.
+
+Before launch on the final domain:
+1. Replace canonical URLs, hreflang URLs and sitemap URLs with the final domain.
+2. Change every HTML `meta name="robots"` from `noindex,follow` to `index,follow` (or remove the tag).
+3. Keep `robots.txt` crawlable; do not add `Disallow: /`.
+4. Submit the production sitemap in Google Search Console.
+5. Add verified business address / coordinates to LocalBusiness schema only when confirmed.
