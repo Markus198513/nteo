@@ -66,3 +66,23 @@ footer{background:#101113;color:#fff;padding:45px 0 22px}.footer-row{display:fle
 .seo-related-card span{font-size:14px;line-height:1.55;color:#65696d}
 .seo-related-card b{margin-top:auto;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#e92323}
 @media(max-width:760px){.seo-related{padding:42px 0}.seo-related-grid{grid-template-columns:1fr}.seo-related-card{min-height:0}}
+
+
+/* Shared NTEO footer — ensure consistent layout on every service page */
+.home-footer{background:#08090a;color:#fff;padding:48px 0 22px;width:100%;clear:both}
+.home-footer .wrap{width:min(1240px,calc(100% - 48px));margin:0 auto}
+.home-footer-top{display:grid;grid-template-columns:minmax(220px,0.8fr) minmax(420px,1.2fr);align-items:start;gap:56px;padding-bottom:38px}
+.home-footer-top>div:first-child img{display:block;width:185px;max-width:100%;max-height:65px;object-fit:contain;object-position:left center}
+.home-footer-top>div:first-child p{margin:14px 0 0;font-size:12px;line-height:1.85;color:#aeb2b5;letter-spacing:.04em}
+.home-footer-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:15px 34px;font-size:11px;line-height:1.5;text-transform:uppercase;letter-spacing:.045em}
+.home-footer-links a{display:block;color:#f3f3f3;text-decoration:none;overflow-wrap:anywhere}
+.home-footer-links a:hover{color:var(--red,#ff2929)}
+.home-footer-bottom{border-top:1px solid #303234;padding-top:18px;display:flex;justify-content:space-between;gap:20px;font-size:9px;line-height:1.5;color:#8d9295;letter-spacing:.15em}
+@media(max-width:760px){
+ .home-footer{padding:38px 0 20px}
+ .home-footer .wrap{width:calc(100% - 36px)}
+ .home-footer-top{grid-template-columns:1fr;gap:28px;padding-bottom:28px}
+ .home-footer-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px 18px;font-size:10px}
+ .home-footer-bottom{flex-wrap:wrap;gap:10px}
+}
+@media(max-width:420px){.home-footer-links{grid-template-columns:1fr}}
