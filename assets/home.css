@@ -122,3 +122,58 @@
 .home-card-image img{width:100%;height:100%;display:block;object-fit:cover;object-position:center;padding:0;box-sizing:border-box}
 .home-service-card:hover .home-card-image img{transform:scale(1.025)}
 @media(max-width:760px){.home-card-image{height:250px}}
+
+/* v7: homepage layout closely follows the approved NTEO reference */
+.home-hero{
+ display:block;position:relative;min-height:438px;overflow:hidden;color:#fff;
+ background:#101113 url('home-hero-bg.webp') center right/cover no-repeat;
+}
+.home-hero:before{
+ content:"";position:absolute;inset:0;z-index:0;
+ background:linear-gradient(90deg,#101113 0%,#101113f5 28%,#101113b8 43%,#10111324 68%,transparent 100%);
+}
+.home-hero-copy{
+ position:relative;z-index:2;width:min(51%,690px);
+ padding:38px 0 28px max(24px,calc((100vw - 1425px)/2));
+}
+.home-hero h1{font-size:clamp(42px,4.1vw,66px);line-height:.98;margin-bottom:14px;max-width:760px}
+.home-lead{max-width:560px;font-size:14px;line-height:1.55;margin-bottom:18px}
+.home-proof{margin-top:18px;gap:9px 24px}
+.home-hero-image{display:none}
+.home-ribbon{background:#fff;color:#17191b;border-top:1px solid #e5e5e2;border-bottom:1px solid #e5e5e2}
+.home-ribbon .wrap{min-height:58px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:center;gap:0;font-size:10px;letter-spacing:0;text-align:center}
+.home-ribbon .wrap span{padding:10px 12px;border-right:1px solid #e5e5e2;line-height:1.35}
+.home-ribbon .wrap span:last-child{border-right:0}
+.home-ribbon .wrap span:before{content:"◇";font-size:19px;vertical-align:middle;margin-right:10px;color:#25292c}
+.home-services{padding:28px 0 70px}
+.home-services .section-head{display:none}
+.home-service-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.home-service-card{border:1px solid #e1e2e0;border-radius:13px;overflow:hidden;padding-bottom:17px;box-shadow:0 5px 16px #1011130c}
+.home-card-image{height:auto;aspect-ratio:1.86/1;overflow:hidden;background:#ececea}
+.home-card-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .45s}
+.home-card-meta{padding:14px 14px 5px;font-size:9px;letter-spacing:.08em}
+.home-service-card h3{font-size:clamp(17px,1.45vw,23px);line-height:1.05;margin:7px 14px 8px}
+.home-service-card p{font-size:11px;line-height:1.55;margin:0 14px 12px}
+.home-card-link{margin:0 14px;font-size:9px}
+@media(max-width:1100px){
+ .home-service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+ .home-hero-copy{width:58%;padding-left:28px}
+ .home-ribbon .wrap{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:760px){
+ .home-hero{min-height:0;background-position:62% center}
+ .home-hero:before{background:linear-gradient(90deg,#101113f5 0%,#101113e8 45%,#1011139c 100%)}
+ .home-hero-copy{width:auto;padding:42px 22px 30px}
+ .home-hero h1{font-size:clamp(36px,9vw,48px);line-height:1.0;margin-bottom:14px}
+ .home-lead{font-size:13px;line-height:1.6}
+ .home-proof{font-size:9px;gap:8px 14px}
+ .home-ribbon .wrap{grid-template-columns:repeat(2,minmax(0,1fr));padding:6px 12px}
+ .home-ribbon .wrap span{font-size:9px;padding:9px 5px;border-right:0;border-bottom:1px solid #e5e5e2}
+ .home-services{padding:24px 0 48px}
+ .home-service-grid{grid-template-columns:1fr;gap:16px}
+ .home-card-image{aspect-ratio:1.9/1;height:auto}
+ .home-card-meta{padding:14px 16px 5px}
+ .home-service-card h3{font-size:23px;margin-left:16px;margin-right:16px}
+ .home-service-card p{font-size:13px;margin-left:16px;margin-right:16px}
+ .home-card-link{margin-left:16px}
+}
