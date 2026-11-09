@@ -8,7 +8,8 @@ if(form){
  form.addEventListener('submit',async e=>{
   e.preventDefault();
   if(!form.reportValidity())return;
-  const file=form.querySelector('input[type=file]').files[0];
+  const fileInput=form.querySelector('input[type=file]');
+  const file=fileInput?.files?.[0];
   if(file&&file.size>15*1024*1024){status.textContent=document.documentElement.lang==='ru'?'Файл больше 15 МБ. Уменьшите файл или отправьте его отдельно через WhatsApp.':'The file is larger than 15 MB. Please reduce it or send it separately via WhatsApp.';status.className='form-status error';return;}
   btn.disabled=true;btn.style.opacity='.6';
   status.textContent=document.documentElement.lang==='ru'?'Отправляем заявку…':'Sending your enquiry…';status.className='form-status';

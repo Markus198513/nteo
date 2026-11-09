@@ -1,0 +1,53 @@
+
+/* NTEO construction site branding landing page */
+.construction-hero .wf-copy h1{font-size:clamp(39px,4.65vw,64px);max-width:680px}
+.construction-visual img{object-position:center 52%}
+.construction-visual:after{background:linear-gradient(90deg,#111315 0%,transparent 12%),linear-gradient(0deg,rgba(0,0,0,.16),transparent 48%)}
+.construction-intro{background:#f4f4f1;padding-top:72px;padding-bottom:76px}
+.construction-intro-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:54px;align-items:start}
+.construction-intro h2,.construction-services h2,.construction-dark h2,.construction-process h2,.construction-geography h2,.construction-audience h2,.construction-cta h2,.construction-faq h2,.construction-seo h2{font:600 clamp(28px,3.2vw,43px)/1.08 Oswald,sans-serif;text-transform:uppercase;margin:10px 0 18px;letter-spacing:-.01em}
+.construction-intro-grid>div:last-child p{font-size:14px;line-height:1.85;color:#555b60;margin:0 0 16px}
+.construction-services{background:#fff}
+.construction-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.construction-card{background:#f5f5f2;border:1px solid #e1e2de;padding:25px 24px 24px;min-height:260px;display:flex;flex-direction:column;position:relative;overflow:hidden;transition:transform .2s,border-color .2s}
+.construction-card:after{content:"";position:absolute;right:-38px;top:-48px;width:100px;height:150px;background:#e33d36;transform:rotate(34deg);opacity:.08}
+.construction-card:hover{transform:translateY(-3px);border-color:#e33d36}
+.construction-card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px}
+.construction-card-top span{font:600 38px/.9 Oswald,sans-serif;color:#e33d36}
+.construction-card-top b{font-size:9px;letter-spacing:.13em;color:#777;text-transform:uppercase}
+.construction-card h3{font:600 22px/1.12 Oswald,sans-serif;text-transform:uppercase;margin:0 0 12px;max-width:94%}
+.construction-card p{font-size:12px;line-height:1.8;color:#62676b;margin:0 0 18px}
+.construction-card a{margin-top:auto;color:#e33d36;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}
+.construction-dark{background:#17191b;color:#fff}
+.construction-dark .section-head>p{color:#c4c6c8}
+.construction-dark .section-head h2{color:#fff}
+.construction-dark .eyebrow{color:#e33d36}
+.construction-benefits{grid-template-columns:repeat(4,minmax(0,1fr))}
+.construction-process{background:#f5f5f2}
+.construction-geography{background:#fff}
+.construction-geo-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
+.construction-geo-grid>div:first-child>p:last-child{font-size:14px;line-height:1.85;color:#62676b}
+.construction-city-panel{background:#17191b;color:#fff;padding:30px}
+.construction-city-panel .eyebrow{color:#e33d36}
+.construction-cities{display:flex;flex-wrap:wrap;gap:9px;margin:18px 0 22px}
+.construction-cities span{border:1px solid #565a5d;padding:10px 13px;font-size:11px;letter-spacing:.04em}
+.construction-city-panel>p:last-child{font-size:12px;line-height:1.8;color:#c3c5c7;margin:0}
+.construction-audience{background:#f5f5f2}
+.construction-audience-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.construction-audience-grid article{border-top:2px solid #e33d36;padding:20px 0}
+.construction-audience-grid b{font:600 34px Oswald,sans-serif;color:#e33d36}
+.construction-audience-grid h3{font:600 20px Oswald,sans-serif;text-transform:uppercase;margin:12px 0}
+.construction-audience-grid p{font-size:12px;line-height:1.8;color:#62676b}
+.construction-cta{background:#e9eae7}
+.construction-cta h2{max-width:850px}
+.construction-cta .wf-intro{max-width:780px}
+.construction-faq details{border-bottom:1px solid #dedfdb;padding:18px 0}
+.construction-faq summary{cursor:pointer;font-weight:800;font-size:14px;list-style:none;position:relative;padding-right:30px}
+.construction-faq summary::-webkit-details-marker{display:none}
+.construction-faq summary:after{content:"+";position:absolute;right:4px;top:-4px;color:#e33d36;font-size:23px}
+.construction-faq details[open] summary:after{content:"−"}
+.construction-faq details p{font-size:13px;line-height:1.8;color:#62676b;max-width:900px;margin:14px 0 0}
+.construction-seo{background:#f5f5f2}
+.construction-seo p{font-size:13px;line-height:1.9;color:#5f6468;max-width:1080px}
+@media(max-width:900px){.construction-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.construction-benefits{grid-template-columns:repeat(2,minmax(0,1fr))}.construction-intro-grid,.construction-geo-grid{grid-template-columns:1fr;gap:24px}}
+@media(max-width:600px){.construction-hero{grid-template-columns:1fr}.construction-hero .wf-copy{padding:46px 24px}.construction-hero .wf-copy h1{font-size:42px}.construction-visual{min-height:280px;order:-1}.construction-grid,.construction-benefits,.construction-audience-grid{grid-template-columns:1fr}.construction-card{min-height:0;padding:21px}.construction-intro{padding-top:48px;padding-bottom:50px}.construction-city-panel{padding:22px}.construction-cta .wf-form{grid-template-columns:1fr}.construction-cta .wf-form textarea{grid-column:auto}}
