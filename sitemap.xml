@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nteo.cy/vinyl-stickers/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://nteo.cy/vinyl-stickers/en/</loc><changefreq>monthly</changefreq></url>
-<url><loc>https://nteo.onrender.com/wide-format/</loc></url><url><loc>https://nteo.onrender.com/en/wide-format/</loc></url>  <url><loc>https://nteo.onrender.com/wayfinding/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://nteo.onrender.com/en/wayfinding/</loc><changefreq>monthly</changefreq></url>
-<url><loc>https://nteo.onrender.com/hotel-signage/</loc></url><url><loc>https://nteo.onrender.com/en/hotel-signage/</loc></url>
-  <url><loc>https://nteo.onrender.com/plotter-cutting/</loc></url>
-  <url><loc>https://nteo.onrender.com/en/plotter-cutting/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://nteo.onrender.com/</loc><xhtml:link rel="alternate" hreflang="ru" href="https://nteo.onrender.com/"/><xhtml:link rel="alternate" hreflang="en" href="https://nteo.onrender.com/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://nteo.onrender.com/"/></url>
+  <url><loc>https://nteo.onrender.com/en/</loc><xhtml:link rel="alternate" hreflang="ru" href="https://nteo.onrender.com/"/><xhtml:link rel="alternate" hreflang="en" href="https://nteo.onrender.com/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://nteo.onrender.com/"/></url>
+  <url><loc>https://nteo.onrender.com/plotter-cutting/</loc><xhtml:link rel="alternate" hreflang="ru" href="https://nteo.onrender.com/plotter-cutting/"/><xhtml:link rel="alternate" hreflang="en" href="https://nteo.onrender.com/en/plotter-cutting/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://nteo.onrender.com/plotter-cutting/"/></url>
+  <url><loc>https://nteo.onrender.com/en/plotter-cutting/</loc><xhtml:link rel="alternate" hreflang="ru" href="https://nteo.onrender.com/plotter-cutting/"/><xhtml:link rel="alternate" hreflang="en" href="https://nteo.onrender.com/en/plotter-cutting/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://nteo.onrender.com/plotter-cutting/"/></url>
+  <url><loc>https://nteo.onrender.com/wide-format/</loc><xhtml:link rel="alternate" hreflang="ru" href="https://nteo.onrender.com/wide-format/"/><xhtml:link rel="alternate" hreflang="en" href="https://nteo.onrender.com/en/wide-format/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://nteo.onrender.com/wide-format/"/></url>
+  <url><loc>https://nteo.onrender.com/en/wide-format/</loc><xhtml:link rel="alternate" hreflang="ru" href="https://nteo.onrender.com/wide-format/"/><xhtml:link rel="alternate" hreflang="en" href="https://nteo.onrender.com/en/wide-format/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://nteo.onrender.com/wide-format/"/></url>
+  <url><loc>https://nteo.onrender.com/wayfinding/</loc><xhtml:link rel="alternate" hreflang="ru" href="https://nteo.onrender.com/wayfinding/"/><xhtml:link rel="alternate" hreflang="en" href="https://nteo.onrender.com/en/wayfinding/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://nteo.onrender.com/wayfinding/"/></url>
+  <url><loc>https://nteo.onrender.com/en/wayfinding/</loc><xhtml:link rel="alternate" hreflang="ru" href="https://nteo.onrender.com/wayfinding/"/><xhtml:link rel="alternate" hreflang="en" href="https://nteo.onrender.com/en/wayfinding/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://nteo.onrender.com/wayfinding/"/></url>
+  <url><loc>https://nteo.onrender.com/hotel-signage/</loc><xhtml:link rel="alternate" hreflang="ru" href="https://nteo.onrender.com/hotel-signage/"/><xhtml:link rel="alternate" hreflang="en" href="https://nteo.onrender.com/en/hotel-signage/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://nteo.onrender.com/hotel-signage/"/></url>
+  <url><loc>https://nteo.onrender.com/en/hotel-signage/</loc><xhtml:link rel="alternate" hreflang="ru" href="https://nteo.onrender.com/hotel-signage/"/><xhtml:link rel="alternate" hreflang="en" href="https://nteo.onrender.com/en/hotel-signage/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://nteo.onrender.com/hotel-signage/"/></url>
 </urlset>

@@ -53,3 +53,16 @@ footer{background:#101113;color:#fff;padding:45px 0 22px}.footer-row{display:fle
 
 /* NTEO vector hero artwork */
 .hero-vector:after,.wf-visual.vector-hero:after,.hotel-hero-visual.vector-hero:after{display:none!important}.hero-vector img,.wf-visual.vector-hero img,.hotel-hero-visual.vector-hero img{object-fit:cover;object-position:center center;background:#f4f4f2}
+
+/* SEO contextual internal links */
+.seo-related{padding:64px 0;background:#f2f1ee;color:#111416}
+.seo-related .eyebrow{color:#f32626}
+.seo-related h2{font-size:clamp(28px,4vw,46px);line-height:1.02;max-width:760px;margin:12px 0}
+.seo-related-intro{color:#62666a;max-width:680px;margin:0 0 26px;line-height:1.65}
+.seo-related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.seo-related-card{display:flex;flex-direction:column;gap:12px;min-height:172px;padding:22px;background:#fff;border:1px solid #dededb;color:#111416;text-decoration:none;transition:transform .2s,border-color .2s}
+.seo-related-card:hover{transform:translateY(-3px);border-color:#f32626}
+.seo-related-card strong{font-size:18px;line-height:1.2}
+.seo-related-card span{font-size:14px;line-height:1.55;color:#65696d}
+.seo-related-card b{margin-top:auto;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#e92323}
+@media(max-width:760px){.seo-related{padding:42px 0}.seo-related-grid{grid-template-columns:1fr}.seo-related-card{min-height:0}}
