@@ -1,0 +1,15 @@
+/* NTEO vehicle branding landing page */
+.vehicle-hero .wf-copy h1{max-width:650px}
+.vehicle-visual img{object-position:center center}
+.vehicle-grid .wf-card img{height:250px;object-fit:cover}
+.vehicle-grid .wf-card:nth-child(1) img{object-position:center 58%}
+.vehicle-grid .wf-card:nth-child(3) img{object-position:center 52%}
+.vehicle-light-materials .wf-material{background:#f2f3f0;border-top-color:#e33d36}
+.vehicle-light-materials .wf-material h3{color:#17191b}
+.vehicle-light-materials .wf-material p{color:#62676b}
+.vehicle-process{background:#f7f7f4}
+
+
+.vehicle-hero .wf-copy>p:not(.eyebrow){max-width:600px}
+@media(max-width:900px){.vehicle-grid .wf-card img{height:220px}}
+@media(max-width:560px){.vehicle-grid .wf-card img{height:210px}}
