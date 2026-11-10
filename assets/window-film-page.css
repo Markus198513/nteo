@@ -58,3 +58,24 @@
 .wf-page .wf-contact-actions>a:not(.lfa-button){color:#fff;text-decoration:none}
 @media(max-width:800px){.wf-page .lfa-hero{grid-template-columns:1fr}.wf-page .lfa-hero-art{min-height:300px;grid-row:1}.wf-page .lfa-hero-copy{padding:34px 24px 42px}.wf-page .wf-heading{display:block}.wf-page .wf-grid{grid-template-columns:1fr}.wf-page .wf-card-image{height:240px}.wf-page .wf-app-grid,.wf-page .wf-why-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.wf-page .wf-process{grid-template-columns:1fr;gap:20px}.wf-page .wf-local{grid-template-columns:1fr;gap:24px}.wf-page .wf-related-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.wf-page .wf-contact{display:block}.wf-page .wf-contact-actions{margin-top:20px}}
 @media(max-width:480px){.wf-page .wf-app-grid,.wf-page .wf-why-grid,.wf-page .wf-related-grid{grid-template-columns:1fr}.wf-page .lfa-hero h1{font-size:38px}}
+
+/* v32.3 refinements: compact process layout and accessible FAQ accordion */
+.wf-page .wf-process{display:grid;grid-template-columns:1fr;gap:30px;padding-top:62px;padding-bottom:64px}
+.wf-page .wf-process-head{max-width:760px}
+.wf-page .wf-process-head h2{font-size:clamp(30px,3.4vw,46px);line-height:1.04;max-width:720px;margin:0 0 14px;color:#fff}
+.wf-page .wf-process-head>p{color:#c9cbcd;font-size:15px;line-height:1.7;max-width:650px;margin:0}
+.wf-page .wf-steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px}
+.wf-page .wf-steps article{display:block;padding:18px 16px 0 0;border-top:2px solid #ed1c24;border-bottom:0;min-width:0}
+.wf-page .wf-steps article>b{display:block;font-size:24px;line-height:1;color:#ed1c24;margin-bottom:18px}
+.wf-page .wf-steps article h3{font-size:16px;line-height:1.25;margin:0 0 9px}
+.wf-page .wf-steps article p{font-size:13px;line-height:1.6;color:#c9cbcd;margin:0}
+.wf-page .wf-seo h3{margin-top:34px}
+.wf-page .wf-faq{max-width:950px;margin-top:18px;border-top:1px solid #d7d9d8}
+.wf-page .wf-faq details{border-bottom:1px solid #d7d9d8;padding:0}
+.wf-page .wf-faq summary{list-style:none;cursor:pointer;position:relative;padding:20px 52px 20px 0;font-weight:700;font-size:16px;line-height:1.45;color:#111315}
+.wf-page .wf-faq summary::-webkit-details-marker{display:none}
+.wf-page .wf-faq summary:after{content:"+";position:absolute;right:8px;top:50%;transform:translateY(-50%);width:28px;height:28px;display:flex;align-items:center;justify-content:center;background:#ed1c24;color:#fff;font-size:22px;font-weight:400;line-height:1}
+.wf-page .wf-faq details[open] summary:after{content:"−"}
+.wf-page .wf-faq details p{margin:0;padding:0 54px 20px 0;color:#555b60;font-size:15px;line-height:1.75;max-width:850px}
+@media(max-width:900px){.wf-page .wf-steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.wf-page .wf-process{gap:24px}}
+@media(max-width:560px){.wf-page .wf-steps{grid-template-columns:1fr;gap:18px}.wf-page .wf-steps article{display:grid;grid-template-columns:42px 1fr;gap:10px;padding-top:16px}.wf-page .wf-steps article>b{margin:0}.wf-page .wf-process{padding-top:42px;padding-bottom:46px}.wf-page .wf-faq summary{font-size:15px;padding-right:44px}}
