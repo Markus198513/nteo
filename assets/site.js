@@ -1,7 +1,10 @@
 
 const nav=document.querySelector('[data-nav]');
 const menu=document.querySelector('[data-menu]');
-if(menu&&nav){menu.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'×':'☰';});nav.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');menu.setAttribute('aria-expanded','false');menu.textContent='☰';}));}
+const serviceToggle=document.querySelector('[data-services-toggle]');
+const serviceDropdown=serviceToggle?.closest('.nav-dropdown');
+if(serviceToggle&&serviceDropdown){serviceToggle.addEventListener('click',()=>{const open=serviceDropdown.classList.toggle('is-open');serviceToggle.setAttribute('aria-expanded',String(open));});document.addEventListener('click',e=>{if(!serviceDropdown.contains(e.target)){serviceDropdown.classList.remove('is-open');serviceToggle.setAttribute('aria-expanded','false');}});}
+if(menu&&nav){menu.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'×':'☰';});nav.querySelectorAll('.primary-nav a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');menu.setAttribute('aria-expanded','false');menu.textContent='☰';}));}
 const form=document.getElementById('quoteForm');
 if(form){
  const status=document.getElementById('formStatus'),btn=document.getElementById('submitBtn');
